@@ -10,10 +10,10 @@ spec:
         app: dictionary-server
     spec:
       containers:
-        - name: server
-          image: brendanburns/dictionary-server
+      - name: server
+        image: brendanburns/dictionary-server
         ports:
-          - containerPort: 8080
+        - containerPort: 8080
         readinessProbe:
           httpGet:
             path: /ready
