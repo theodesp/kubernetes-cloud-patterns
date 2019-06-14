@@ -26,3 +26,15 @@ Cloud Computing Patterns
 ### Sharded Replicated Cache Pattern
 
 ![img](./sharded-memcached.png)
+
+### Scatter/Gather Pattern
+
+![img](./scatter-gather.png)
+
+### Sharded Replicated Scatter/Gather Pattern
+
+![img](./sharded-replicated-gather.png)
+
+### Decorator Pattern
+
+![img](./decorator.png)
