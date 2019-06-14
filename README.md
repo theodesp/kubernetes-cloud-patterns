@@ -22,3 +22,7 @@ Cloud Computing Patterns
 ### Caching Layer Pattern
 
 ![img](./caching.png)
+
+### Sharded Replicated Cache Pattern
+
+![img](./sharded-memcached.png)
