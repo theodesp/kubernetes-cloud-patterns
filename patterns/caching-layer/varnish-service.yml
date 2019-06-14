@@ -7,5 +7,5 @@ spec:
     app: varnish-cache
   ports:
     - protocol: TCP
-    port: 80
-    targetPort: 8080
+      port: 80
+      targetPort: 8080

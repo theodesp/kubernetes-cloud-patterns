@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
     - image: mysql
-    name: mysql
+      name: mysql
     - image: brendanburns/mysql-adapter
-    name: adapter
+      name: adapter

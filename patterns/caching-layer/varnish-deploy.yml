@@ -16,16 +16,8 @@ spec:
           # We'll use two gigabytes for each varnish cache
           memory: 2Gi
       image: brendanburns/varnish
-      command:
-        - varnishd
-        - -F
-        - -f
-        - /etc/varnish-config/default.vcl
-        - -a
-        - 0.0.0.0:8080
-        - -s
-        # This memory allocation should match the memory request above
-        - malloc,2G
+      command: ["varnishd"]
+      args: ["-F", "-f", "/etc/varnish-config/default.vcl", "-a", "0.0.0.0:8080", "-s", "malloc,2G"]
       ports:
       - containerPort: 8080
       volumeMounts:
